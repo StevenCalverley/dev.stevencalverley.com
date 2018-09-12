@@ -1,0 +1,132 @@
+html {
+    font-family: 'adriane', Georgia, serif;
+    color: #494c4e;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  body {
+    border: 8px solid #494c4e;
+    margin: 0px;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  li {
+    font-weight: bold;
+    margin: 0;
+  }
+
+  h3,
+  h4 {
+    font-family: 'franklin-gothic-urw-cond', Arial, sans-serif;
+    font-weight: 700;
+  }
+
+  h1 {
+    font-size: 1.8em;
+    line-height: 1.5em;
+    margin-bottom: 1em;
+  }
+
+  h2,
+  blockquote {
+    font-size: 2em;
+    line-height: 1;
+    margin-bottom: 1em;
+  }
+
+  h3 {
+    font-size: 1.6em;
+    line-height: 1;
+    margin-bottom: 1.25em;
+  }
+
+  h4 {
+    font-size: 1.2em;
+    line-height: 1;
+    margin-bottom: 1.25em;
+    color: #f5c453;
+    text-transform: uppercase;
+  }
+
+  h5,
+  li.list-item {
+    font-size: 1em;
+    line-height: 1;
+  }
+
+  ol {
+    font-size: 1.5em;
+  }
+  ol li {
+    margin-bottom: 1.5em;
+    padding-bottom: 1em;
+  }
+
+  li {
+    margin-bottom: 1.5em;
+    padding-bottom: 2em;
+  }
+
+  p {
+    font-size: 1.1em;
+    line-height: 2;
+    margin-bottom: 1.5em;
+  }
+
+  blockquote {
+    text-align: center;
+    margin: 0;
+    margin-bottom: 2em;
+    padding: 1em;
+  }
+  blockquote p {
+    font-size: 1.25em;
+    line-height: 1.5em;
+    margin-bottom: 0.5em;
+  }
+  blockquote:before,
+  blockquote:after {
+    content: '';
+    display: inline-block;
+    text-align: center;
+    width: 100px;
+  }
+  blockquote:before {
+    border-top: 1px solid #f5c453;
+  }
+  blockquote:after {
+    border-bottom: 1px solid #f5c453;
+  }
+
+
+a {
+    color: #494c4e;
+    text-decoration: none;
+    margin-bottom: 1.25em;
+
+
+  &:hover {
+    opacity: 0.6;
+  }
+
+  &:hover .arrow-right {
+    transform: translateX(5px);
+    transition: all 0.25s ease;
+    display: inline-block;
+  }
+
+  &:hover .arrow-left {
+    transform: translateX(-5px);
+    transition: all 0.25s ease;
+    display: inline-block;
+  }
+}
+
+
+
+
